@@ -1,0 +1,13 @@
+<suite name="Average Marks Suite" verbose="1">
+
+    <test name="Shortlisting Test">
+        <!-- Parameters passed at TEST level -->
+        <parameter name="mark1" value="4.5"/>
+        <parameter name="mark2" value="3.5"/>
+        
+        <classes>
+            <class name="que1.AverageMarksTest"/>
+        </classes>
+    </test>
+
+</suite>

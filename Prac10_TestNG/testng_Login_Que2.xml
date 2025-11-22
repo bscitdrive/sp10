@@ -1,0 +1,7 @@
+<suite name="Login Test Suite" verbose="1">
+    <test name="Login DataProvider Test">
+        <classes>
+            <class name="que2.LoginTest"/>
+        </classes>
+    </test>
+</suite>

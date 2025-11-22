@@ -1,0 +1,16 @@
+<suite name="Cross Browser Suite" parallel="tests" thread-count="3" verbose="1">
+
+    <test name="ChromeTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="que3.CrossBrowserTest"/>
+        </classes>
+    </test>
+    
+    <test name="FirefoxTest">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="que3.CrossBrowserTest"/>
+        </classes>
+    </test>
+</suite>
