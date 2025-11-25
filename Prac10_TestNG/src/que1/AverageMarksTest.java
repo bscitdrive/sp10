@@ -1,3 +1,9 @@
+/*
+Write a test class containing test method that calculates the average 
+marks that awarded by two reviewers prints whether writer is shortlisted
+if average is >4. The marks are passed as parameters whose values are
+passed from testing.xml at test level.
+*/
 package que1;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
