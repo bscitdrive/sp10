@@ -1,3 +1,7 @@
+/*
+Create a test class that performs cross-browser testing for a simple web 
+application. Also configure an XML file to specify which browsers to test against.
+*/
 package que3;
 
 import java.sql.Driver;
