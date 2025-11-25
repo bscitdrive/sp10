@@ -1,3 +1,9 @@
+/*
+2.	Implement a test class named LoginTest. Create a method that provides test data (username and password) using the @DataProvider annotation. Create a test method named testLogin that takes two parameters 
+(username and password). If the username and password are both valid,
+the test should assert a successful login message else display an 
+error message indicating the login failure.
+*/
 package que2;
 
 import org.testng.Assert;
